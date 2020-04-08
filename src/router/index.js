@@ -12,6 +12,11 @@ const router = new VueRouter({
         name: 'login',
         component: () =>
             import ('@/views/login/login.vue')
+    }, {
+        path: '/index',
+        name: 'index',
+        component: () =>
+            import ('@/views/index/index.vue')
     }]
 })
 export default router
