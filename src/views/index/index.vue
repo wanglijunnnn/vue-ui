@@ -52,10 +52,10 @@
         left: 0;
         top: 0;
         height: 100%;
-        width: 240px !important;
-        min-width: 240px !important;
-        max-width: 240px !important;
-        flex: 0 0 240px !important;
+        width: 260px !important;
+        min-width: 260px !important;
+        max-width: 260px !important;
+        flex: 0 0 260px !important;
     }
     .ivu-layout{
         padding-left: 120px;
@@ -97,7 +97,7 @@
             </Sider>
             <Layout>
 
-                <Content :style="{margin: '30px', background: '#fff', minHeight: '760px',borderRadius:'10px'}">
+                <Content :style="{background: '#fff', minHeight: '760px',borderRadius:'10px'}">
                     <div class="content-hd"></div>
                 </Content>
             </Layout>
